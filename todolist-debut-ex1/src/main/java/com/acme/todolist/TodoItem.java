@@ -34,12 +34,12 @@ public class TodoItem {
 	public String getContent() {
 		return content;
 	}
-	
+
 	/**
 	 * Constructeur vide imposé par JPA, ne pas utiliser
 	 */
 	protected TodoItem() {	}
-	
+
 	public TodoItem(String id, Instant time, String content) {
 		super();
 		this.id = id;
